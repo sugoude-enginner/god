@@ -9,3 +9,5 @@ https://developer.mozilla.org/ja/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_
 
 【Nodeビギナーズブック】
 https://www.nodebeginner.org/index-jp.html
+
+かかった時間：3時間
