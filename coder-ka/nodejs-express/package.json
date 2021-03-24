@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-express",
+  "version": "1.0.0",
+  "description": "HTTPの標準モジュール\r https://nodejs.org/api/http.html#http_http_createserver_options_requestlistener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
