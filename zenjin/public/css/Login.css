@@ -9,12 +9,28 @@ body{
     height: 25%;
 }
 
+
+
+.zenjinpng{
+    height: 20%;
+    width: 10%;
+    margin:0;
+    background-image: url("../png/Zenjin_Logo.png");
+    background-size:100% 100%;
+    background-position: center;
+    background-color: black;
+    
+}
+
+
+
 .ancle_tom{
     height:55%;
     
     background-size:auto 100%;
     background-position: center;
-    background-image: url("Login.png");
+    background-image: url("../png/Login.png");
+    background-color: black;
     position: relative;
   
 }

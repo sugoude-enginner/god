@@ -1,0 +1,38 @@
+body{
+    height:100vh;
+    margin:0;
+}
+
+.header-hosoi {
+    background-color: black;
+    height: 5%;
+}
+
+.zenjing{
+    background-color: #4B3F3F;
+    min-height: 90%;
+    
+}
+
+.footer-hosoi {
+    background-color: black;
+    height: 5%;
+}
+
+.moji {
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+
+.nav-link { 
+    color: white;
+    text-decoration: none;
+    
+}
+
+.blog-area {
+    min-height: 1000px;
+
+
+}
