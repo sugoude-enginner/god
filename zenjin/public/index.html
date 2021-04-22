@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Login.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.5.2/validator.min.js" integrity="sha512-vZEoK8xRncku4g5GANHh5zobUjeCMbZkSEahrADeAcRlk/1Ignf8sAKojkV4RZLkPw145+ILJFisI2pnjsPtGQ==" crossorigin="anonymous"></script>
     <title>Zenjin</title>
 
 </head>
@@ -14,9 +15,9 @@
 
     <div class="header">
 
-            <div class="zenjinpng">
+        <div class="zenjinpng">
 
-                <!-- .-') _   ('-.       .-') _                        .-') _  
+            <!-- .-') _   ('-.       .-') _                        .-') _  
                 (  OO) )_(  OO)     ( OO ) )                      ( OO ) ) 
               ,(_)----.(,------.,--./ ,--,'      ,--.  ,-.-') ,--./ ,--,'  
               |       | |  .---'|   \ |  |\  .-')| ,|  |  |OO)|   \ |  |\  
@@ -25,10 +26,10 @@
                /   /___ |  .--' |  |\    |  ,--. |  | ,|  |_.'|  |\    |   
               |        ||  `---.|  | \   |  |  '-'  /(_|  |   |  | \   |   
               `--------'`------'`--'  `--'   `-----'   `--'   `--'  `--'    -->
-    
-            </div>
 
-        
+        </div>
+
+
 
     </div>
 
@@ -45,12 +46,13 @@
             align-items: center; /* 副の軸の位置指定 */
             ">
 
-            <button class="button" style="
+            <button class="button" id="login-button" style="
             height:55px;
             width:150px;
             background: rgba(80, 20, 20, 0.6);
             ">
-            <span style = "
+            
+                <span style="
             font-size: x-large;
             font-weight: bold;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -58,7 +60,9 @@
             ">Login</span>
             </button>
 
-            <input type="text" class="psw" style="
+            
+
+            <input type="text" id="mail-input" class="psw" style="
             height:27px;
             width:170px;
             font-size: x-large;
@@ -68,6 +72,11 @@
             ">
 
         </div>
+
+        <script src="js/login-button.js"></script>
+
+
+
 
 
     </div>

@@ -9,7 +9,10 @@
   },
   "author": "",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "email-validator": "^2.0.4",
     "express": "^4.17.1",
-    "js-base64": "^3.6.0"
+    "js-base64": "^3.6.0",
+    "validatorjs": "^3.22.1"
   }
 }
